@@ -14,7 +14,10 @@ public class Auth {
     }
 
     boolean log(){
-        return username_.equals("Barsik1337228") && password_.equals("qwerty");
+        Scanner scanner = new Scanner(System.in);
+        String username = scanner.nextLine();
+        String password = scanner.nextLine();
+        return username.equals(username_) && password.equals(password_);
     }
 }
 
