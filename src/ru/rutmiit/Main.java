@@ -7,23 +7,30 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String name = scanner.nextLine();
-        String lastName = scanner.nextLine();
-        int group = Integer.parseInt(scanner.nextLine());
-        String str = ("Привет " + name + " " + lastName + " из " + group + " группы ");
-        System.out.println(str.toUpperCase());
-        System.out.printf("Привет %s %s из %d группы\n", name, lastName, group);
+        int mark = Integer.parseInt(scanner.nextLine());
+        if (mark == 5) {
+            System.out.println("Отлично");
+        } else if (mark == 4) {
+            System.out.println("Хорошо");
+        } else if (mark == 3) {
+            System.out.println("Удовлетворительно");
+        } else if (mark == 2) {
+            System.out.println("Плохо");
+        } else {
+            System.out.println("Не оценка");
+        }
 
-        float length = Float.parseFloat(scanner.nextLine());
-        float square = length * length;
-        System.out.println(square);
-        System.out.println(Math.ceil(square));
-        System.out.println(Math.floor(square));
-        System.out.println(Math.round(square));
-
-        double inch = Double.parseDouble(scanner.nextLine());
-        double cm = inch * 2.54;
-        System.out.printf("%.2f\n", cm);
+        int day = Integer.parseInt(scanner.nextLine());
+        switch (day) {
+            case 1 -> System.out.println("Понедельник");
+            case 2 -> System.out.println("Вторник");
+            case 3 -> System.out.println("Среда");
+            case 4 -> System.out.println("Четверг");
+            case 5 -> System.out.println("Пятница");
+            case 6 -> System.out.println("Суббота");
+            case 7 -> System.out.println("Воскресенье");
+            default -> System.out.println("Не день недели");
+        }
 
     }
 }

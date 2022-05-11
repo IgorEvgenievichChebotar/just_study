@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="initial commit">
+    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="Типы, вывод данных">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652271063240</updated>
-      <workItem from="1652271064531" duration="4724000" />
+      <workItem from="1652271064531" duration="6008000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652271327400</created>
@@ -58,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652271327400</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Типы, вывод данных">
+      <created>1652276068110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652276068110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,7 +83,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Типы, вывод данных" />
+    <option name="LAST_COMMIT_MESSAGE" value="Типы, вывод данных" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
