@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="Условные конструкции">
+    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="Логические операции">
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Auth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" afterDir="false" />
     </list>
@@ -9,6 +10,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652271063240</updated>
-      <workItem from="1652271064531" duration="6766000" />
+      <workItem from="1652271064531" duration="9445000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652271327400</created>
@@ -71,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652277346327</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Логические операции">
+      <created>1652278186277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652278186277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +107,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Типы, вывод данных" />
     <MESSAGE value="Условные конструкции" />
-    <option name="LAST_COMMIT_MESSAGE" value="Условные конструкции" />
+    <MESSAGE value="Логические операции" />
+    <option name="LAST_COMMIT_MESSAGE" value="Логические операции" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
