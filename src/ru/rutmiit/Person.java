@@ -1,5 +1,6 @@
 package ru.rutmiit;
 
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class Person {

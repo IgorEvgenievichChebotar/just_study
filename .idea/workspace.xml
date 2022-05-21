@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="SimpleGUI class and other">
-      <change afterPath="$PROJECT_DIR$/src/ru/airline/Form.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/airline/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/airline/HandleDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/airline/Logics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/airline/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="2 Практических из ООП7 + паттерны курсовой">
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Chicken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +119,7 @@
       <workItem from="1653042359332" duration="1915000" />
       <workItem from="1653067849992" duration="5066000" />
       <workItem from="1653083785498" duration="5824000" />
-      <workItem from="1653142362554" duration="9039000" />
+      <workItem from="1653142362554" duration="16919000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652271327400</created>
@@ -181,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653085672551</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2 Практических из ООП7 + паттерны курсовой">
+      <created>1653158944119</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653158944119</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +209,8 @@
     <MESSAGE value="мелкий класс Auth" />
     <MESSAGE value="Практическая работа 5 - Массивы" />
     <MESSAGE value="SimpleGUI class and other" />
-    <option name="LAST_COMMIT_MESSAGE" value="SimpleGUI class and other" />
+    <MESSAGE value="2 Практических из ООП7 + паттерны курсовой" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 Практических из ООП7 + паттерны курсовой" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
