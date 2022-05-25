@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="2 Практических из ООП7 + паттерны курсовой">
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Chicken.java" afterDir="false" />
+    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="ООП7 практическая">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/src/main/java/com/gui/fxgui/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/src/main/java/com/gui/fxgui/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/src/main/resources/com/gui/fxgui/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Parallelogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Polygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Quadrilateral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Rhombus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/airline/Form.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/airline/Form.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/airline/HandleDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/airline/Logics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/airline/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/SimpleGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/SimpleGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +94,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/YandexDisk/учеба/airline_coursework_java&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propGUI&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -68,13 +108,13 @@
       <recent name="ru.rutmiit" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.default">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.airline.Main" />
-      <module name="just_study" />
+  <component name="RunManager" selected="Application.main">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gui.fxgui.HelloApplication" />
+      <module name="FXgui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.airline.*" />
+          <option name="PATTERN" value="com.gui.fxgui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="default" type="Application" factoryName="Application">
+    <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.rutmiit.Main" />
       <module name="just_study" />
       <method v="2">
@@ -90,12 +130,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.default" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.HelloApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +159,15 @@
       <workItem from="1653042359332" duration="1915000" />
       <workItem from="1653067849992" duration="5066000" />
       <workItem from="1653083785498" duration="5824000" />
-      <workItem from="1653142362554" duration="16919000" />
+      <workItem from="1653142362554" duration="18652000" />
+      <workItem from="1653231172835" duration="1930000" />
+      <workItem from="1653242687232" duration="2007000" />
+      <workItem from="1653253109484" duration="6683000" />
+      <workItem from="1653261291788" duration="1363000" />
+      <workItem from="1653300515489" duration="4403000" />
+      <workItem from="1653328666559" duration="401000" />
+      <workItem from="1653329592683" duration="7043000" />
+      <workItem from="1653399580986" duration="15260000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652271327400</created>
@@ -184,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653158944119</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ООП7 практическая">
+      <created>1653170183015</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653170183015</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +265,8 @@
     <MESSAGE value="Практическая работа 5 - Массивы" />
     <MESSAGE value="SimpleGUI class and other" />
     <MESSAGE value="2 Практических из ООП7 + паттерны курсовой" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 Практических из ООП7 + паттерны курсовой" />
+    <MESSAGE value="ООП7 практическая" />
+    <option name="LAST_COMMIT_MESSAGE" value="ООП7 практическая" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

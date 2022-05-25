@@ -1,72 +1,32 @@
 package ru.rutmiit;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+public class Car extends Vehicle{
 
-public class Car {
-    private String make;
+    private int horsePower;
     private String model;
-    private Integer horsePower;
 
-    public Car(String make) {
-        this.make = make;
-        this.model = "Unknown";
-        this.horsePower = -1;
+    public Car(int passengers, int horsePower, String model) {
+        super(passengers);
+        setHorsePower(horsePower);
+        setModel(model);
     }
-    public Car(String make, String model, Integer horsePower) {
-        this.make = make;
-        this.model = model;
+
+    private void setHorsePower(int horsePower) {
+        if(horsePower<0){
+            throw new IllegalArgumentException("Invalid negative number");
+        }
         this.horsePower = horsePower;
     }
 
-    public String getMake() {
-        return make;
-    }
-
-    public void setMake(String make) {
-        this.make = make;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
+    private void setModel(String model) {
+        if(model.length()<2){
+            throw new IllegalArgumentException("Invalid short value");
+        }
         this.model = model;
     }
 
-    public int getHorsePower() {
-        return horsePower;
+    @Override
+    public String toString(){
+        return "In a Car " + passengers + " passengers With " + horsePower + " horse power on " + model;
     }
-
-    public void setHorsePower(int horsePower) {
-        this.horsePower = horsePower;
-    }
-
-    public void getInfo(){
-        System.out.printf("The car is: %s %s – %d HP.", this.make, this.model, this.horsePower);
-        System.out.println();
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        List<Car> cars_list = new ArrayList<>();
-
-        int n = Integer.parseInt(sc.nextLine());
-        System.out.println();
-        for(int i = 0; i < n; i++){
-            String[] arr = sc.nextLine().split(" ");
-            System.out.println();
-            Car car = new Car(arr[0], arr[1], Integer.parseInt(arr[2]));
-            cars_list.add(car);
-        }
-
-        for(Car car : cars_list){
-            car.getInfo();
-        }
-    }
-
-
 }

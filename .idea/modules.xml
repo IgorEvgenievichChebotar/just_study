@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/ru/rutmiit/FXgui/FXgui.iml" filepath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/FXgui.iml" />
       <module fileurl="file://$PROJECT_DIR$/just_study.iml" filepath="$PROJECT_DIR$/just_study.iml" />
     </modules>
   </component>

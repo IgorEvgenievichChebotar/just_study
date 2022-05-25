@@ -48,6 +48,10 @@ public class SimpleGUI extends JFrame {
 
     }
 
+    void onAction(){
+        System.out.println("141");
+    }
+
     class ButtonEventListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             String message = "";
