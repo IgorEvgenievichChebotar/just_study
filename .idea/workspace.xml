@@ -4,44 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="ООП7 практическая">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Boat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/src/main/java/com/gui/fxgui/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/src/main/java/com/gui/fxgui/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/FXgui/src/main/resources/com/gui/fxgui/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Parallelogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Polygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Quadrilateral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Rhombus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Worker.java" afterDir="false" />
+    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="ООП8 практическая делаю">
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Elf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/airline/Form.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/airline/Form.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/airline/HandleDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/airline/Logics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/airline/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/SimpleGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/SimpleGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +141,10 @@
       <workItem from="1653328666559" duration="401000" />
       <workItem from="1653329592683" duration="7043000" />
       <workItem from="1653399580986" duration="15260000" />
+      <workItem from="1653496824597" duration="2850000" />
+      <workItem from="1653562371694" duration="363000" />
+      <workItem from="1653572707705" duration="2055000" />
+      <workItem from="1653681188225" duration="6911000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652271327400</created>
@@ -239,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653170183015</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ООП8 практическая делаю">
+      <created>1653496875363</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653496875363</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +250,8 @@
     <MESSAGE value="SimpleGUI class and other" />
     <MESSAGE value="2 Практических из ООП7 + паттерны курсовой" />
     <MESSAGE value="ООП7 практическая" />
-    <option name="LAST_COMMIT_MESSAGE" value="ООП7 практическая" />
+    <MESSAGE value="ООП8 практическая делаю" />
+    <option name="LAST_COMMIT_MESSAGE" value="ООП8 практическая делаю" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,56 +1,60 @@
 package ru.rutmiit;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        List<Polygon> figures = new ArrayList<>();
+    static Scanner sc = new Scanner(System.in);
 
-            boolean exec = true;
-            boolean isParallel = true;
-            int[] sides_arr;
-            while(exec){
-                try{
-                sides_arr = Arrays
-                        .stream(sc.nextLine().split(" "))
-                        .mapToInt(Integer::parseInt)
-                        .toArray();
-
-                if (sides_arr.length == 1) {
-                    figures.add(new Circle(sides_arr));
-                }
-                else if (sides_arr.length == 3) {
-                    figures.add(new Triangle(sides_arr));
-                }
-                else if (sides_arr.length == 4) {
-                    if(Arrays.stream(sides_arr).distinct().count() == sides_arr[0])
-                        figures.add(new Rhombus(sides_arr));
-                    else
-                        if(isParallel)
-                            figures.add(new Parallelogram(sides_arr));
-                        else
-                            figures.add(new Quadrilateral(sides_arr));
-                } else if (sides_arr.length > 4) {
-                    figures.add(new Polygon(sides_arr));
-                }
-                else
-                    new Polygon(sides_arr);
-                System.out.println("Continue creating objects? true/false");
-                exec = Boolean.parseBoolean(sc.nextLine());
-                }
-                catch(Exception e){
-                    System.out.println(e.getMessage());
-                }
+    public static void process_actions(Hero hero){
+        boolean exec = true;
+        while(exec){
+            String[] commands_arr = sc.nextLine().split(" ");
+            switch (commands_arr[0]) {
+                case "Action", "action" -> System.out.print(hero.action());
+                case "End", "end" -> exec = false;
+            }
         }
-
-        for(Polygon figure : figures){
-            System.out.println(figure);
-            System.out.println();
+    }
+    public static void main(String[] args) {
+        boolean exec = true;
+        while(exec){
+            String[] str_arr = sc.nextLine().split(" ");
+            switch (str_arr[0]) {
+                case "Wizard", "wizard" -> {
+                    Wizard wizard = new Wizard(
+                            str_arr[1],
+                            Integer.parseInt(str_arr[2]),
+                            Integer.parseInt(str_arr[3]),
+                            Integer.parseInt(str_arr[4])
+                    );
+                    process_actions(wizard);
+                    System.out.print("Continue create hero`s? true/false");
+                    exec = Boolean.parseBoolean(sc.nextLine());
+                }
+                case "Elf", "elf" -> {
+                    Elf elf = new Elf(
+                            str_arr[1],
+                            Integer.parseInt(str_arr[2]),
+                            Integer.parseInt(str_arr[3])
+                    );
+                    process_actions(elf);
+                    System.out.println("Continue create hero`s? true/false");
+                    exec = Boolean.parseBoolean(sc.nextLine());
+                }
+                case "Knight", "knight" -> {
+                    Knight knight = new Knight(
+                            str_arr[1],
+                            Integer.parseInt(str_arr[2]),
+                            Integer.parseInt(str_arr[3]),
+                            Integer.parseInt(str_arr[4])
+                    );
+                    process_actions(knight);
+                    System.out.println("Continue create hero`s? true/false");
+                    exec = Boolean.parseBoolean(sc.nextLine());
+                }
+                default -> throw new IllegalStateException("Unexpected value: " + str_arr[0]);
+            }
         }
     }
 }
