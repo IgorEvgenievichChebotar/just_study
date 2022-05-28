@@ -1,6 +1,6 @@
 package ru.rutmiit;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     static Scanner sc = new Scanner(System.in);
