@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="ООП8 практическая делаю">
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Elf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Russian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Airplane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Boat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Vehicle.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +143,7 @@
       <workItem from="1653496824597" duration="2850000" />
       <workItem from="1653562371694" duration="363000" />
       <workItem from="1653572707705" duration="2055000" />
-      <workItem from="1653681188225" duration="6911000" />
+      <workItem from="1653681188225" duration="11667000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652271327400</created>
