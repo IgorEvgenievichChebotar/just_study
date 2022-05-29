@@ -3,10 +3,12 @@
 
 # User-specific stuff
 .idea/**/workspace.xml
+workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+just_study.iml
 
 # AWS User-specific
 .idea/**/aws.xml
