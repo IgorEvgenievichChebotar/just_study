@@ -1,7 +1,7 @@
 package ru.rutmiit;
 
-public class Cryptography {
-    public static String encryptByPermutations(String text, int[] key){
+interface Cryptography {
+    static String encryptByPermutations(String text, int[] key){
         StringBuilder encrypted_text = new StringBuilder();
         int block_size = key.length;
         int blocks_num = text.length()/key.length;
@@ -28,7 +28,7 @@ public class Cryptography {
         return encrypted_text.toString();
     }
 
-    public static String decryptByPermutations(String text, int[] key){
+    static String decryptByPermutations(String text, int[] key){
         StringBuilder decrypted_text = new StringBuilder();
         int block_size = key.length;
         int blocks_num = text.length()/key.length;
@@ -49,7 +49,7 @@ public class Cryptography {
         return decrypted_text.toString();
     }
 
-    public static String encryptByGamma(String text, String gamma_key){
+    static String encryptByGamma(String text, String gamma_key){
         while(gamma_key.length() < text.length())
             gamma_key += gamma_key;
 
@@ -62,7 +62,7 @@ public class Cryptography {
         return new String(char_arr);
     }
 
-    public static String decryptByGamma(String text, String gamma_key){
+    static String decryptByGamma(String text, String gamma_key){
         while(gamma_key.length() < text.length())
             gamma_key += gamma_key;
 
@@ -81,14 +81,15 @@ public class Cryptography {
                         " основанные на требованиях," +
                         " определяемых направлениями деятельности компании."; // исходное сообщение
 
-        int[] key = {2, 0, 1, 5, 3, 4, 6};
-
-        System.out.println(encryptByPermutations(text, key));
-        System.out.println(decryptByPermutations(encryptByPermutations(text, key), key));
-
         String gamma_key = "qwertyuiop[]asdfghjkl;'zxcvbnm,./";
 
         System.out.println(encryptByGamma(text, gamma_key));
         System.out.println(decryptByGamma(encryptByGamma(text, gamma_key), gamma_key));
+
+        //int[] key = {2, 0, 1, 3};
+
+        //System.out.println(encryptByPermutations(text, key));
+        //System.out.println(decryptByPermutations(encryptByPermutations(text, key), key));
+
     }
 }

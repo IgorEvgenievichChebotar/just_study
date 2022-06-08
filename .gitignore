@@ -9,6 +9,7 @@ workspace.xml
 .idea/**/dictionaries
 .idea/**/shelf
 just_study.iml
+.xml
 
 # AWS User-specific
 .idea/**/aws.xml

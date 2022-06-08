@@ -4,16 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="ООП8 практическая делаю">
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/Russian.java" afterDir="false" />
+    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="Все классы ТУТ">
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Armed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Boots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Dress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Experienced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Healthy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Helmet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Airplane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Boat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/just_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/just_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Arming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Arming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Bow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Bow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Cryptography.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Cryptography.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Elf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/HealthPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/HealthPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/ManaPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/ManaPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Potions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Potions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Thing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Wizard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +54,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Player" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="SOFT" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
@@ -62,17 +91,20 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;public&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/YandexDisk/учеба/airline_coursework_java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/YandexDisk/учеба&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -80,13 +112,39 @@
       <recent name="ru.rutmiit" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Cryptography" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.rutmiit.Cryptography" />
+      <module name="just_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.rutmiit2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gui.fxgui.HelloApplication" />
       <module name="FXgui" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gui.fxgui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.rutmiit2.Main" />
+      <module name="just_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.rutmiit2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +161,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.main" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Cryptography" />
       <item itemvalue="Application.HelloApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +204,13 @@
       <workItem from="1653562371694" duration="363000" />
       <workItem from="1653572707705" duration="2055000" />
       <workItem from="1653681188225" duration="11667000" />
+      <workItem from="1653826359899" duration="19615000" />
+      <workItem from="1653861413208" duration="36000" />
+      <workItem from="1653904464691" duration="1933000" />
+      <workItem from="1653925550016" duration="3133000" />
+      <workItem from="1654431831073" duration="321000" />
+      <workItem from="1654614370172" duration="16755000" />
+      <workItem from="1654645467779" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652271327400</created>
@@ -222,7 +289,77 @@
       <option name="project" value="LOCAL" />
       <updated>1653496875363</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Все классы">
+      <created>1653752500538</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653752500538</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Практические работа 4. Игрок">
+      <created>1653752693913</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653752693913</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Практическая работа 4. Игрок">
+      <created>1653752781442</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653752781442</updated>
+    </task>
+    <task id="LOCAL-00015" summary="криптография">
+      <created>1653853376717</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653853376717</updated>
+    </task>
+    <task id="LOCAL-00016" summary="криптография">
+      <created>1653853454590</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653853454590</updated>
+    </task>
+    <task id="LOCAL-00017" summary="криптография">
+      <created>1653853475620</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1653853475620</updated>
+    </task>
+    <task id="LOCAL-00018" summary="криптография">
+      <created>1653853504245</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1653853504245</updated>
+    </task>
+    <task id="LOCAL-00019" summary="криптография">
+      <created>1653853537465</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1653853537465</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Игра из практической ООП9">
+      <created>1653853587010</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1653853587010</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Все классы ТУТ">
+      <created>1653857841550</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1653857841550</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,13 +370,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Типы, вывод данных" />
     <MESSAGE value="Условные конструкции" />
@@ -250,7 +400,13 @@
     <MESSAGE value="2 Практических из ООП7 + паттерны курсовой" />
     <MESSAGE value="ООП7 практическая" />
     <MESSAGE value="ООП8 практическая делаю" />
-    <option name="LAST_COMMIT_MESSAGE" value="ООП8 практическая делаю" />
+    <MESSAGE value="Все классы" />
+    <MESSAGE value="Практические работа 4. Игрок" />
+    <MESSAGE value="Практическая работа 4. Игрок" />
+    <MESSAGE value="криптография" />
+    <MESSAGE value="Игра из практической ООП9" />
+    <MESSAGE value="Все классы ТУТ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Все классы ТУТ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

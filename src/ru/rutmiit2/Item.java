@@ -1,19 +1,19 @@
-package ru.rutmiit;
+package ru.rutmiit2;
 
-public class Item implements Thing{
+public abstract class Item implements Thing {
     int count;
 
     public Item(int count) {
         setCount(count);
     }
 
-    public void setCount(int count) {
+    private void setCount(int count) {
         this.count = count;
     }
 
     @Override
     public int use() {
-        return 0;
+        return count;
     }
 
     @Override
