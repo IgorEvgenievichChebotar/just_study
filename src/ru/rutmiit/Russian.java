@@ -1,8 +1,8 @@
 package ru.rutmiit;
 
-public class Russian implements Person{
+public class Russian implements Person {
 
-    private String name;
+    private final String name;
 
     public Russian(String name) {
         this.name = name;

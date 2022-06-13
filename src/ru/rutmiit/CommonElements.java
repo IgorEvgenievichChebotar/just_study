@@ -6,19 +6,19 @@ public class CommonElements {
 
     private String[] array;
 
-    public void fill(String str){
+    public void fill(String str) {
         array = str.split(" ");
     }
 
-    public void fill(){
+    public void fill() {
         Scanner sc = new Scanner(System.in);
         array = sc.nextLine().split(" ");
     }
 
-    public void find_common_elements(CommonElements array){
-        for(String elem1 : array.array){
-            for(String elem2 : this.array){
-                if (elem1.equals(elem2)){
+    public void find_common_elements(CommonElements array) {
+        for (String elem1 : array.array) {
+            for (String elem2 : this.array) {
+                if (elem1.equals(elem2)) {
                     System.out.printf("%s ", elem1);
                 }
             }
@@ -26,11 +26,11 @@ public class CommonElements {
         System.out.println();
     }
 
-    public void find_common_elements(String str){
+    public void find_common_elements(String str) {
         array = str.split(" ");
-        for(String elem1 : array){
-            for(String elem2 : this.array){
-                if (elem1.equals(elem2)){
+        for (String elem1 : array) {
+            for (String elem2 : this.array) {
+                if (elem1.equals(elem2)) {
                     System.out.printf("%s ", elem1);
                 }
             }

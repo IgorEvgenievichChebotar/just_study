@@ -1,17 +1,18 @@
 package ru.rutmiit;
 
-import java.awt.*; // Все подклассы и методы библиотеки
-import javax.swing.*; // Для формочек (надпись, кнопка...)
-import java.awt.event.*; // Отслеживание нажатий
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 // класс SimpleGUI наследует класс JFrame
 public class SimpleGUI extends JFrame {
-    private JButton button = new JButton("Press");
-    private JTextField input = new JTextField("", 5);
-    private JLabel label = new JLabel("Input:");
-    private JRadioButton radio1 = new JRadioButton("Select this:");
-    private JRadioButton radio2 = new JRadioButton("Select that:");
-    private JCheckBox check = new JCheckBox("Check", false);
+    private final JButton button = new JButton("Press");
+    private final JTextField input = new JTextField("", 5);
+    private final JLabel label = new JLabel("Input:");
+    private final JRadioButton radio1 = new JRadioButton("Select this:");
+    private final JRadioButton radio2 = new JRadioButton("Select that:");
+    private final JCheckBox check = new JCheckBox("Check", false);
 
     // Конструктор (что будет происходить при создании объекта этого класса)
     public SimpleGUI() {
@@ -48,7 +49,7 @@ public class SimpleGUI extends JFrame {
 
     }
 
-    void onAction(){
+    void onAction() {
         System.out.println("141");
     }
 

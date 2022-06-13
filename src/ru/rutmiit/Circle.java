@@ -2,11 +2,11 @@ package ru.rutmiit;
 
 import java.text.DecimalFormat;
 
-public class Circle extends Polygon{
+public class Circle extends Polygon {
 
     public Circle(int[] sides) {
         super(sides);
-        if (sides.length != 1){
+        if (sides.length != 1) {
             throw new IllegalArgumentException("It is not a circle");
         }
     }
@@ -23,7 +23,7 @@ public class Circle extends Polygon{
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Circle radius is " + sides[0] +
                 "\nIts perimeter is " + new DecimalFormat("#0.00").format(getPerimeter()) + "" +
                 "\nIts area is " + new DecimalFormat("#0.00").format(getArea());

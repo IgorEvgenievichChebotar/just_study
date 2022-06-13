@@ -1,13 +1,18 @@
 package ru.rutmiit2;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
-public abstract class Hero extends Player implements Healthy, Armed, Inventory{
-    protected int health;
-    protected Weapon weapon;
-    protected List<Item> items = new ArrayList<>();
-    protected List<Clothes> clothes = new ArrayList<>();
+public abstract class Hero extends Player implements Healthy, Armed, Inventory, Serializable, Comparable {
+    @Serial
+    private static final long serialVersionUID = 7302164851296642355L;
+    private int health;
+    private Weapon weapon;
+    private List<Item> items = new ArrayList<>();
+    private List<Clothes> clothes = new ArrayList<>();
 
 
     public Hero(String username, int level, int health) {
@@ -15,25 +20,29 @@ public abstract class Hero extends Player implements Healthy, Armed, Inventory{
         setHealth(health);
     }
 
-    private void setHealth(int health) {
-        this.health = health;
+    public Weapon getWeapon() {
+        return weapon;
     }
 
     public int getHealth() {
         return this.health;
     }
 
-    public void getItems(){
-        System.out.println(items.toString());
+    public void setHealth(int health) {
+        this.health = health;
     }
 
-    public void getClothes(){
-        System.out.println(clothes.toString());
+    public List<Item> getItems() {
+        return this.items;
+    }
+
+    public List<Clothes> getClothes() {
+        return this.clothes;
     }
 
     @Override
     public void recoverHealth(int number) {
-        this.health+= number;
+        this.health += number;
     }
 
     @Override
@@ -41,10 +50,9 @@ public abstract class Hero extends Player implements Healthy, Armed, Inventory{
         if (this.clothes.size() < CLOTHES) {
             for (int i = 0; i < number; i++)
                 this.clothes.add(clothes);
-            System.out.println(username + " dress " + clothes);
+            System.out.println(getUsername() + " dress " + clothes);
             return true;
-        }
-        else{
+        } else {
             System.out.println("Not enough empty space");
             return false;
         }
@@ -52,24 +60,50 @@ public abstract class Hero extends Player implements Healthy, Armed, Inventory{
 
     @Override
     public boolean put(Item item, int number) {
-        if (this.items.size() < ITEMS){
+        if (this.items.size() < ITEMS) {
             for (int i = 0; i < number; i++)
                 this.items.add(item);
-            System.out.println(username + " put " + item);
+            System.out.println(getUsername() + " put " + item);
             return true;
-        }
-        else {
+        } else {
             System.out.println("Not enough empty space");
             return false;
         }
     }
 
     @Override
-    public abstract boolean change(Weapon weapon);
+    public boolean change(Weapon weapon){
+        if(this instanceof Elf){
+            if(weapon instanceof Bow){
+                this.weapon = weapon;
+                return true;
+            } else return false;
+        }
+        else if(this instanceof Knight){
+            if(weapon instanceof Sword){
+                this.weapon = weapon;
+                return true;
+            } else return false;
+        }
+        else if(this instanceof Wizard){
+            if(weapon instanceof Staff){
+                this.weapon = weapon;
+                return true;
+            } else return false;
+        } else {
+            return false;
+        }
+    }
 
     @Override
     public abstract boolean useItem(int number);
 
     @Override
     public abstract String action();
+
+    @Override
+    public int compareTo(Object o) {
+        Hero h = (Hero) o;
+        return Integer.compare(this.getLevel(), h.getLevel());
+    }
 }

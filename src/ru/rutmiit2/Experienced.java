@@ -1,6 +1,9 @@
 package ru.rutmiit2;
 
-public interface Experienced {
+import java.io.Serializable;
+
+public interface Experienced extends Serializable {
     int getLevel();
+
     void levelUp();
 }

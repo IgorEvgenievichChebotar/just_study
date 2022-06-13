@@ -12,35 +12,35 @@ public class Box {
     }
 
     public void setLength(double length) {
-        if(length <= 0){
+        if (length <= 0) {
             throw new IllegalArgumentException("Длина отрицательной быть не может");
         }
         this.length = length;
     }
 
     public void setWidth(double width) {
-        if(width <= 0){
+        if (width <= 0) {
             throw new IllegalArgumentException("Ширина отрицательной быть не может");
         }
         this.width = width;
     }
 
     public void setHeight(double height) {
-        if(height <= 0){
+        if (height <= 0) {
             throw new IllegalArgumentException("Высота отрицательной быть не может");
         }
         this.height = height;
     }
 
-    public double calculateSurfaceArea (){
-        return 2*(length*width+length*height+width*height);
+    public double calculateSurfaceArea() {
+        return 2 * (length * width + length * height + width * height);
     }
 
-    public double calculateLateralSurfaceArea (){
-        return 2*(length*height+width*height);
+    public double calculateLateralSurfaceArea() {
+        return 2 * (length * height + width * height);
     }
 
-    public double calculateVolume (){
-        return length*width*height;
+    public double calculateVolume() {
+        return length * width * height;
     }
 }

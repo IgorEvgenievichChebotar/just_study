@@ -1,6 +1,11 @@
 package ru.rutmiit2;
 
-public class Boots extends Clothes{
+import java.io.Serial;
+
+public class Boots extends Clothes {
+    @Serial
+    private static final long serialVersionUID = 6260122614984810286L;
+
     public Boots(int durability) {
         super(durability);
     }

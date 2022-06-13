@@ -7,16 +7,16 @@ public class Polygon {
 
     public Polygon(int[] sides) {
 
-        if(!(sides.length == 1 || sides.length >= 3))
+        if (!(sides.length == 1 || sides.length >= 3))
             throw new IllegalArgumentException("Invalid value to sides number");
 
-        for(int side : sides) {
-            if(side <= 0) {
+        for (int side : sides) {
+            if (side <= 0) {
                 throw new IllegalArgumentException("Negative value to side length " + side);
             }
         }
 
-        for(int side : sides) {
+        for (int side : sides) {
             if (sides.length >= 3 && side > Arrays.stream(sides).sum() - side)
                 throw new IllegalArgumentException("Wrong value to side length " + side);
         }
@@ -33,7 +33,7 @@ public class Polygon {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Polygon contains " + getSidesCount() + " sides" +
                 "\nIts perimeter is " + getPerimeter();
     }

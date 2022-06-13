@@ -2,7 +2,7 @@ package ru.rutmiit;
 
 import java.util.Arrays;
 
-public class Rhombus extends Parallelogram{
+public class Rhombus extends Parallelogram {
     public Rhombus(int[] sides) {
         super(sides);
 
@@ -14,7 +14,7 @@ public class Rhombus extends Parallelogram{
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Rhombus contains " + getSidesCount() + " equal sides" +
                 "\nIts perimeter is " + getPerimeter();
     }

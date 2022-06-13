@@ -1,7 +1,7 @@
-package ru.rutmiit2;
+package ru.rutmiit3;
 
 public class Main {
     public static void main(String[] args) {
-
     }
 }
+

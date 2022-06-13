@@ -1,6 +1,9 @@
 package ru.rutmiit2;
 
-public interface Armor {
+import java.io.Serializable;
+
+public interface Armor extends Serializable {
     int destroy(int number);
+
     boolean isBroken();
 }

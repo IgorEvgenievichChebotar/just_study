@@ -1,6 +1,9 @@
 package ru.rutmiit;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class BigNumbers {
@@ -20,10 +23,10 @@ public class BigNumbers {
             biggest_last = biggest;
             biggest = 0;
             for (int j = i; j < numbers.size(); j++) {
-                if(numbers.get(j) > biggest)
+                if (numbers.get(j) > biggest)
                     biggest = numbers.get(j);
             }
-            if(biggest != biggest_last)
+            if (biggest != biggest_last)
                 System.out.println(biggest);
         }
     }

@@ -1,6 +1,9 @@
 package ru.rutmiit2;
 
-public interface Thing {
+import java.io.Serializable;
+
+public interface Thing extends Serializable {
     int use();
+
     boolean isUsed();
 }

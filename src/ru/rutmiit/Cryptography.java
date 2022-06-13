@@ -1,20 +1,20 @@
 package ru.rutmiit;
 
 interface Cryptography {
-    static String encryptByPermutations(String text, int[] key){
+    static String encryptByPermutations(String text, int[] key) {
         StringBuilder encrypted_text = new StringBuilder();
         int block_size = key.length;
-        int blocks_num = text.length()/key.length;
-        int remainder = text.length()%key.length;
+        int blocks_num = text.length() / key.length;
+        int remainder = text.length() % key.length;
 
-        if(remainder!=0){
-            blocks_num+=1;
+        if (remainder != 0) {
+            blocks_num += 1;
             text += " ".repeat(Math.max(0, (block_size - remainder) + 1));
         }
 
         int start = 0;
         int end = block_size;
-        for(int i = 0; i < blocks_num; i++) {
+        for (int i = 0; i < blocks_num; i++) {
             char[] source_block = text.substring(start, end).toCharArray();
             char[] encrypted_block = new char[block_size];
             for (int j = 0; j < source_block.length; j++)
@@ -28,14 +28,14 @@ interface Cryptography {
         return encrypted_text.toString();
     }
 
-    static String decryptByPermutations(String text, int[] key){
+    static String decryptByPermutations(String text, int[] key) {
         StringBuilder decrypted_text = new StringBuilder();
         int block_size = key.length;
-        int blocks_num = text.length()/key.length;
+        int blocks_num = text.length() / key.length;
 
         int start = 0;
         int end = block_size;
-        for(int i = 0; i < blocks_num; i++) {
+        for (int i = 0; i < blocks_num; i++) {
             char[] source_block = text.substring(start, end).toCharArray();
             char[] decrypted_block = new char[block_size];
             for (int j = 0; j < source_block.length; j++)
@@ -49,8 +49,8 @@ interface Cryptography {
         return decrypted_text.toString();
     }
 
-    static String encryptByGamma(String text, String gamma_key){
-        while(gamma_key.length() < text.length())
+    static String encryptByGamma(String text, String gamma_key) {
+        while (gamma_key.length() < text.length())
             gamma_key += gamma_key;
 
         char[] char_arr = text.toCharArray();
@@ -62,8 +62,8 @@ interface Cryptography {
         return new String(char_arr);
     }
 
-    static String decryptByGamma(String text, String gamma_key){
-        while(gamma_key.length() < text.length())
+    static String decryptByGamma(String text, String gamma_key) {
+        while (gamma_key.length() < text.length())
             gamma_key += gamma_key;
 
         char[] char_arr = text.toCharArray();
@@ -75,7 +75,7 @@ interface Cryptography {
         return new String(char_arr);
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         String text =
                 "При построении системы безопасности применяются политики защиты," +
                         " основанные на требованиях," +

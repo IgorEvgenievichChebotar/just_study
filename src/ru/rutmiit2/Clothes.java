@@ -1,6 +1,10 @@
 package ru.rutmiit2;
 
+import java.io.Serial;
+
 public abstract class Clothes implements Armor {
+    @Serial
+    private static final long serialVersionUID = -8481146433761134838L;
     int durability;
 
     public Clothes(int durability) {

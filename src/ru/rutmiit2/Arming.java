@@ -1,5 +1,7 @@
 package ru.rutmiit2;
 
-public interface Arming {
+import java.io.Serializable;
+
+public interface Arming extends Serializable {
     double getAbility();
 }

@@ -1,6 +1,6 @@
 package ru.rutmiit;
 
-public class Audi implements Car{
+public class Audi implements Car {
 
     private final String model;
     private final String color;
@@ -30,7 +30,7 @@ public class Audi implements Car{
     }
 
     @Override
-    public String toString(){
-        return "This is " + getModel() +" produced in "+ countryProduced + " and have " + TIRES + " tires";
+    public String toString() {
+        return "This is " + getModel() + " produced in " + countryProduced + " and have " + TIRES + " tires";
     }
 }

@@ -4,41 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="Все классы ТУТ">
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Armed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Armor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Boots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Clothes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Dress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Experienced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Healthy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Helmet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="49657717-837c-472e-8270-94530c836131" name="Changes" comment="ООП9 завершена">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit/ReadFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/rutmiit2/SaveAndUploadHeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/HeroTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/just_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/just_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Arming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Arming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Bow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Bow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/ArrayRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/ArrayRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Audi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/BigNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/BigNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Chicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/CommonElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/CommonElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Cryptography.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Cryptography.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Elf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/HealthPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/HealthPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/ManaPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/ManaPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Potions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Potions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Thing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Parallelogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Parallelogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Quadrilateral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Quadrilateral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Rhombus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Rhombus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Russian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Russian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/SimpleGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/SimpleGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Armed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Armed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Arming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Arming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Armor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Boots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Boots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Bow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Bow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Clothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Clothes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Dress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Dress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Elf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Experienced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Experienced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/HealthPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/HealthPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Healthy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Healthy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Helmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Helmet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Identifiable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Identifiable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/ManaPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/ManaPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Potions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Potions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Thing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/rutmiit2/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/rutmiit2/Wizard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +77,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -89,56 +119,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;public&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/YandexDisk/учеба&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "extract.method.default.visibility": "public",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "D:/YandexDisk/учеба/maven_project",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.rutmiit" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\YandexDisk\учеба\just_study" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+      <recent name="ru.rutmiit2" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Cryptography" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.rutmiit.Cryptography" />
-      <module name="just_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.rutmiit2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gui.fxgui.HelloApplication" />
-      <module name="FXgui" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gui.fxgui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.rutmiit2.Main" />
       <module name="just_study" />
@@ -153,8 +174,39 @@
       </method>
     </configuration>
     <configuration name="main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
       <option name="MAIN_CLASS_NAME" value="ru.rutmiit.Main" />
       <module name="just_study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="just_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.HeroTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="just_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.rutmiit2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.rutmiit2" />
+      <option name="MAIN_CLASS_NAME" value="ru.rutmiit2.HeroTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,12 +214,14 @@
     <list>
       <item itemvalue="Application.main" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Cryptography" />
-      <item itemvalue="Application.HelloApplication" />
+      <item itemvalue="JUnit.HeroTest" />
+      <item itemvalue="JUnit.HeroTest (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.HeroTest (1)" />
+        <item itemvalue="JUnit.HeroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +265,16 @@
       <workItem from="1654431831073" duration="321000" />
       <workItem from="1654614370172" duration="16755000" />
       <workItem from="1654645467779" duration="646000" />
+      <workItem from="1654694964162" duration="1275000" />
+      <workItem from="1654700602375" duration="595000" />
+      <workItem from="1654703880304" duration="1269000" />
+      <workItem from="1654768222107" duration="1548000" />
+      <workItem from="1654771913147" duration="38805000" />
+      <workItem from="1654946385749" duration="7156000" />
+      <workItem from="1654983191443" duration="14768000" />
+      <workItem from="1655062815740" duration="5131000" />
+      <workItem from="1655129546458" duration="121000" />
+      <workItem from="1655129693980" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652271327400</created>
@@ -414,6 +478,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="9" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="16" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
